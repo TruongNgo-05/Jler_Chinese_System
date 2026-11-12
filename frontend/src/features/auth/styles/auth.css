@@ -1,0 +1,64 @@
+.auth-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1080px;
+  margin: 65px auto;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: white;
+}
+.auth-art {
+  background: var(--paper);
+  padding: 45px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+.auth-art > div {
+  font-family: "Noto Serif SC", serif;
+  font-size: 100px;
+  color: var(--blue);
+  letter-spacing: 10px;
+}
+.auth-art > div span {
+  display: block;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #5a6677;
+  margin-top: 20px;
+}
+.auth-art > p {
+  font-size: 24px;
+  color: #7f827d;
+}
+.auth-panel {
+  padding: 45px 55px;
+}
+.auth-panel > a {
+  font-size: 11px;
+  color: var(--muted);
+}
+.auth-panel h1 {
+  font-size: 30px;
+  margin-top: 35px;
+}
+.auth-panel label {
+  margin: 16px 0;
+}
+.auth-panel .muted {
+  font-size: 12px;
+}
+.forgot {
+  display: block;
+  font-size: 11px;
+  color: var(--blue);
+  text-align: right;
+  margin-bottom: 20px;
+}
+.auth-panel form + .muted {
+  text-align: center;
+  margin-top: 25px;
+}

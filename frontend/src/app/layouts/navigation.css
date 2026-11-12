@@ -1,0 +1,126 @@
+.topline {
+  background: #172d72;
+  color: #e4e9fa;
+  text-align: center;
+  padding: 10px 15px;
+  font-size: 10px;
+  letter-spacing: 1.2px;
+}
+.site-header {
+  height: 92px;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  background: #fffdf9f7;
+  backdrop-filter: blur(12px);
+  z-index: 30;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-right: auto;
+  flex-shrink: 0;
+}
+.brand img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+.brand > span {
+  font-size: 27px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: var(--blue);
+}
+.brand small {
+  display: block;
+  font-size: 6px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.main-nav a {
+  padding: 35px 0;
+  white-space: nowrap;
+}
+.main-nav a.active {
+  color: var(--blue);
+  border-bottom: 2px solid var(--blue);
+}
+.header-actions {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 11px;
+}
+.cart-link {
+  white-space: nowrap;
+}
+.menu-toggle {
+  display: none;
+}
+.account {
+  position: relative;
+  max-width: 150px;
+  font-size: 11px;
+}
+.account summary {
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.account > div {
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 210px;
+  padding: 10px;
+  background: white;
+  border: 1px solid var(--line);
+  box-shadow: 0 15px 50px #14254017;
+  border-radius: 10px;
+  display: grid;
+  gap: 2px;
+}
+.account a,
+.account button {
+  padding: 12px;
+  text-align: left;
+  border: 0;
+  border-radius: 5px;
+  font-size: 12px;
+}
+.account a:hover {
+  background: var(--paper);
+}
+.section {
+  padding: 65px max(5%, calc((100vw - 1260px) / 2));
+}
+.section .section {
+  padding: 0;
+}
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 35px;
+}
+.heading h1 {
+  margin-bottom: 0;
+}
+.heading .eyebrow {
+  margin-bottom: 12px;
+}

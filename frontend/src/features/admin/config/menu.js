@@ -1,0 +1,16 @@
+export const adminMenu = [
+  ["dashboard", "Tổng quan"],
+  ["orders", "Đơn hàng"],
+  ["reports", "Báo cáo doanh thu"],
+  ["sepay-transactions", "Giao dịch SePay"],
+  ["books", "Sách"],
+  ["categories", "Danh mục sách"],
+  ["courses", "Khóa học"],
+  ["chapters", "Chương học"],
+  ["lessons", "Bài học"],
+  ["flashcards", "Flashcard"],
+  ["quizzes", "Đề thi"],
+  ["users", "Tài khoản"],
+  ["posts", "Bài viết & thông báo"],
+  ["vouchers", "Mã giảm giá"],
+];

@@ -1,0 +1,33 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated builds
+**/node_modules/
+**/target/
+**/dist/
+**/build/
+**/bin/
+**/obj/
+
+# Test output and logs
+**/test-results/
+**/playwright-report/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local uploads: keep only the curated demo media
+/backend/uploads/*
+!/backend/uploads/jler-media/
+/backend/uploads/jler-media/*
+!/backend/uploads/jler-media/**
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
